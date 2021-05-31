@@ -12,6 +12,7 @@
 html {
     font-size: 62.5%;
     box-sizing: inherit;
+
 }
 *, *:before, *:after {
      box-sizing: inherit;
@@ -40,6 +41,7 @@ body {
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
     
 }
 
@@ -47,6 +49,11 @@ body {
     .boton {
         width: auto;
     }
+
+}
+
+.boton:hover {
+    cursor: pointer;
 
 }
 
@@ -199,3 +206,27 @@ h1,h2,h3 {
    color: var(--primario);
 
 }
+
+.contenedor-campos {
+
+}
+
+.campo {
+    margin-bottom: 1rem;
+
+}
+
+.campo label {
+
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
